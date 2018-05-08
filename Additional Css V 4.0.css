@@ -1,0 +1,682 @@
+/*hides Entry Title of Welcome Page*/
+h1.entry-title
+
+{
+	   display:none;
+}
+
+
+@media only screen and (max-width: 26em) {
+    
+/*hides Entry Title of Welcome Page*/
+h1.entry-title
+
+{
+	   
+}
+
+
+/*global settingstarts..*/
+
+
+	
+	/*display coloumn starts*/
+	
+	.col-full {
+    margin-left: 0.0em;
+    margin-right: 0.0em;
+    padding: 0;
+		border-left:0.0em solid;
+		border-right:0.0em solid;
+}
+		/*display coloumn Ends*/
+	
+	/*store front handheld menu bar appearing at bottom*/
+	
+.product-template-default.single-product #colophon > div > div.storefront-handheld-footer-bar {
+	
+	display:none;
+		
+  
+}
+
+/*making all links element black */
+	
+a
+{
+	color:black;
+}
+	
+ul.products li.product .price {
+    display: block;
+    color: green;
+    font-weight: 400;
+    margin-bottom: 0.1rem;
+}
+
+/*buttons .. starts*/
+ul.products li.product .button {
+  display:none;
+	background-color:black;
+	margin-bottom:0.0em;
+	color:white;
+	
+}
+	/*Single Product Page buttons end */
+/*sticky link on single product page*/
+
+div.summary.entry-summary > div.woocommerce-product-details__short-description > p > a
+	{
+		  
+  position: fixed; 
+  bottom:0px;
+	left:0px;
+	width:50%;
+	z-index:1000;
+	background-color:darkorange;
+	height:2.8em;
+	text-align :center;
+	font-weight:600;
+	font-size:1em;
+	padding-top: 0.618047em;
+  padding-right: 1.41575em;
+  padding-bottom: 0.618047em;
+  padding-left: 1.41575em;
+	color:maroon;
+	
+/*background-image:url(https://www.chitguppa.a2hosted.com/wp-content/uploads/2018/03/mufeez-SMS-e1522174585914.jpg); */
+               
+
+	}
+	
+
+
+	/*Add to cart button on single Product Page
+	 */
+form > button
+	 {
+		position:fixed;
+		bottom:0em;
+		right:0em;
+	  width:50%;
+		z-index:1000;
+    border: 0;
+    background: 0 0;
+    background-color: #43454b;
+    border-color: #43454b;
+    color: #fff;
+    cursor: pointer;
+    padding: .6180469716em 1.41575em;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: none;
+    display: inline-block;
+    outline: 0;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+	a > button
+	 {
+		position:fixed;
+		bottom:0em;
+		right:0em;
+	  width:50%;
+		z-index:1000;
+    border: 0;
+    background: 0 0;
+    background-color: #43454b;
+    border-color: #43454b;
+    color: #fff;
+    cursor: pointer;
+    padding: .6180469716em 1.41575em;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: none;
+    display: inline-block;
+    outline: 0;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+	
+.single-product div.product form.cart .quantity {
+	  display:none;
+    float: left;
+    margin-right: .875em;
+}
+
+	.single-product div.product form.cart {
+    margin-bottom: 0.0em;
+    padding: 0em 0;
+}
+
+	/*Single Product Page buttons end */
+	
+/*global settings end*/
+
+
+
+/*header area starts....*/
+
+
+ .site-header
+{
+	
+	padding-top:0.0em;
+  padding-bottom:0.0em;
+	background-color:maroon;
+	
+}
+
+.header-widget-region .widget {
+    margin: 0;
+    padding: 0.0em 0;
+    padding-top: 0.0em;
+    padding-right: 0px;
+    padding-bottom: 0.0em;
+	
+    padding-left: 0px;
+    font-size: .875em;
+	  background-color:maroon;
+}
+.header-widget-region
+{
+	  margin-bottom:0.2em;
+}
+.widget_pages ul li {
+  display: inline-block;
+	width:5em;
+	margin-bottom:0em;
+	font-size:1.3em;
+	position:relative;
+	
+}
+
+	/* site header col ,reducing left and right margin */
+	
+	.site-header .col-full {
+    position: relative;
+		margin-left:0.0em;
+		margin-right:00em;
+}
+
+	/*menu Starts */
+
+button.menu-toggle {
+	
+	  cursor: pointer;
+    text-align: left;
+    float: left;
+    border: 2px solid transparent;
+    box-shadow: none;
+    border-radius: 2px;
+	  background-color:maroon;
+    background-image: none;
+    padding: .6180469716em .875em .6180469716em 2.617924em;
+    font-size: .875em;
+	color:white;
+	
+	
+   
+}
+	
+
+	button.menu-toggle:hover
+	{
+		background-color:maroon;
+		color:white;
+		border-color:white;
+		border:0.1em solid;
+		
+	}
+
+button.menu-toggle:before
+	{
+		background-color:white;
+	
+	}
+	button.menu-toggle span:before
+	{
+		background-color:white;
+		
+	}
+		button.menu-toggle:after
+	{
+		background-color:white;
+		
+	}
+	
+ul.menu li a {
+    color:white;
+}
+
+	/* menu ends */
+	
+	
+	
+.site-branding .site-title a {
+    color:lightyellow;
+	  font-size:0.6em;
+	 position:absolute;
+	 left:4.48em;
+	 top:0.5em;
+	
+	 
+	
+	
+	  
+}
+
+/*reducing widget region margin to make more space for products*/
+div.header-widget-region 
+{
+    margin-bottom: 0.0em;
+}
+
+
+/*header area ends*/
+
+/*store front page starts*/
+
+/*hides Entry Title of Welcome Page*/
+h1.entry-title
+
+{
+	   display:none
+}
+
+/*reduces categories slider top and bottom padding to 0.2em*/
+.page-template-template-homepage .type-page {
+    padding-top: 0.0em;
+    padding-bottom:0.0em;
+    position: relative;
+		
+}
+/*reduces site-main padding to 0.2em*/
+.page-template-template-homepage:not(.has-post-thumbnail) .site-main {
+    padding-top: 0.235801032em;
+}
+
+/*Reduces Width of category images(links) to accomadate more categories in one-line*/
+
+#post-20 > div > div > div > ul
+{
+	overflow:hidden;
+	/*white-space:nowrap;*/
+	
+	margin-left:0em;
+}
+#post-20 > div > div > div > ul li
+{
+	width:6.74em;
+	height:6em;
+	display:inline-block;
+	margin-bottom:0.0em;
+	margin-left:0.0em;
+	vertical-align:top;
+	border-right:0.1px double;
+	border-bottom:0.1px double;
+
+	
+	
+	
+
+	
+}
+
+/*changing font styling of category text */
+#post-20 > div > div > div > ul > li.product-category.product > a > h2
+{
+	font-size:65%;
+	font-weight:bold
+}
+/*reducing margin between category image and category text */
+#post-20 > div > div > div > ul > li > a > img
+{
+	margin-bottom:0.1em;
+	height:4.5em;
+	width:4.5em;
+	
+	
+}
+#post-20 > div
+{
+	margin-left:0.0em;
+	margin-right:0.0em;
+}
+#post-20
+{
+	margin-bottom:0.0em;
+	
+}
+/*reducing page's(contents) left and right margin */
+#content > div
+{
+	margin-left:0.1em;
+	margin-right:0.1em;
+}
+#post-20 > div > div
+
+/*Aligning category links on left side*/
+{
+	text-align:left;
+}
+
+#post-20 > div > div > div > ul > li > a > h2 > mark
+/* Hiding Category count */
+{
+	display:none;
+}
+
+.storefront-product-section {
+    margin-bottom: 0.0em;
+}
+	/*hiding Extra Space between*/
+	#post-20 > div > div > p:nth-child(1)
+	{
+		
+		display:none;
+	}
+	
+	#post-20 > div > div > br
+	{
+		
+		display:none;
+	}
+	
+	/*buy fast Button in store fornt */
+	
+	h2 > a.fast-buy
+	{
+		
+    background-color:orange;
+		color:black;
+		display:block;
+		margin-right:15%;
+		margin-left:15%;
+		font-weight:bold;
+		padding: 0.4em 0.4em 0.4em 0.4em;
+  border-top: 1px solid lightblue;
+  border-right: 1px solid lightblue;
+  border-bottom: 1px solid lightblue;
+  border-left: 1px solid lightblue;
+	 
+}
+#post-20 > div > div > a 
+	{
+		
+		position :static;
+		top:20px;
+		transform:translate3d(0,0,0);
+		text-align:center;
+    background-color:black;
+		color:white;
+		display:block;
+		margin-right:0%;
+		margin-left:0%;
+		font-weight:bold;
+		width:100%;
+		padding: 0.2em 0.2em 0.2em 0.2em;
+  border-top: 1px solid lightblue;
+  border-right: 1px solid lightblue;
+  border-bottom: 1px solid lightblue;
+  border-left: 1px solid lightblue;
+	 
+}
+	
+	
+/*Hiding Buy Now image links from store front */
+.storefront-product-section ul.products li.product h2.woocommerce-loop-product__title a img {
+}
+
+.storefront-product-section ul.products.columns-4 li:nth-child(odd)
+{
+	display:inline-block;
+	text-align:center;
+  width:50%; 
+	/*height:22em;*/
+	margin-left:0.0em;
+	margin-right:0.0em;
+	margin-bottom:0.0em;
+	margin-top:0.0em;
+	border-bottom:1px solid;
+	border-right:1px solid;
+	
+	
+}
+	.storefront-product-section ul.products.columns-4 li:nth-child(even)
+{
+	display:inline-block;
+	text-align:center;
+  width:50%; 
+	/*height:22em;*/
+	margin-left:0.0em;
+	margin-right:0.0em;
+	margin-bottom:0.0em;
+	margin-top:0.0em;
+	border-bottom:1px solid;
+	
+/* multiple product page starts*/
+	
+}
+	ul.products.columns-5 li:nth-child(odd)
+{
+	display:inline-block;
+	text-align:center;
+  width:50%; 
+	/*height:22em;*/
+	margin-left:0.0em;
+	margin-right:0.0em;
+	margin-bottom:0.0em;
+	margin-top:0.0em;
+	border-bottom:1px solid;
+	border-right:1px solid;
+	
+	
+}
+ul.products.columns-5 li:nth-child(even)
+{
+	display:inline-block;
+	text-align:center;
+  width:50%; 
+	/*height:22em;*/
+	margin-left:0.0em;
+	margin-right:0.0em;
+	margin-bottom:0.0em;
+	margin-top:0.0em;
+	border-bottom:1px solid;
+	
+	
+}
+	
+		ul.products.columns-6 li:nth-child(odd)
+{
+	display:inline-block;
+	text-align:center;
+  width:50%; 
+	/*height:22em;*/
+	margin-left:0.0em;
+	margin-right:0.0em;
+	margin-bottom:0.0em;
+	margin-top:0.0em;
+	border-bottom:1px solid;
+	border-right:1px solid;
+	
+	
+}
+ul.products.columns-6 li:nth-child(even)
+{
+	display:inline-block;
+	text-align:center;
+  width:50%; 
+	/*height:22em;*/
+	margin-left:0.0em;
+	margin-right:0.0em;
+	margin-bottom:0.0em;
+	margin-top:0.0em;
+	border-bottom:1px solid;
+	
+	
+}
+
+/*reducing storefront margin botton */
+	
+	.storefront-sorting {
+    font-size: .875em;
+    margin-bottom: 0.0em;
+}
+	
+/* reducing margin for store front sorting area text */
+#main > div.storefront-sorting > form
+	
+	{
+		margin-bottom:0.1em;
+	}
+	
+	#main > div.storefront-sorting > p
+	{
+		
+		margin-bottom:0.1em;
+	}
+	
+	#main > div.storefront-sorting > nav
+	{
+		
+		padding-top:0.0em;
+		padding-bottom:0.0em;
+	}
+	
+	/*multiple Product Page ends*/
+
+.storefront-product-section
+ul.products li.product
+h2.woocommerce-loop-product__title 
+{
+  
+	color:black;
+	font-size:1em;
+	margin-bottom:0.1em;
+	text-wrap:normal;
+	overflow:hidden;
+}
+
+
+.storefront-product-section
+ul.products li.product
+h2.woocommerce-loop-product__title a
+{
+  
+	
+/*	font-weight:bold;*/
+	font-size:1.1em;
+	margin-bottom:0.3em;
+}
+
+
+
+
+
+.storefront-product-section
+ul.products li.product .woocommerce-loop-product__link img {
+	
+	 position:static;
+    
+	  width:100%;
+	  height:10em;;
+    margin: 0 auto 0.2em;
+}
+.storefront-product-section
+ul.products li.product h2.woocommerce-loop-product__title {
+    margin: 0 auto 0.0em;
+}
+
+span.price{
+	
+    margin-bottom:0em;
+	  color:green;
+}
+span.onsale
+{
+	display:none;
+}
+
+.storefront-product-section .section-title {
+    text-align: center;
+	
+    margin-bottom: 0.1em;
+	  color:White;
+	  line-height:1.2em;
+	  font-weight:400;
+	  font-Size:1.2em;
+	
+	  background-color:maroon;
+	  
+}
+
+/*search result*/
+
+#main > header
+{
+	display:none;
+}
+
+/*single Product Page*/
+
+.woocommerce-breadcrumb {
+    margin-left: -1.387rem;
+    margin-right: -1.387rem;
+    margin-bottom: 0.0em;
+    font-size: .875em;
+    padding: 0.3em 0.0rem;
+}
+
+.single-product div.product p.price {
+    font-size: 1.41575em;
+    margin: 0.0em 0;
+		
+}
+.single-product div.product .woocommerce-product-gallery .flex-viewport {
+    margin-bottom: 0.2em;
+}
+
+.single-product div.product .images, .single-product div.product .summary, .single-product div.product .woocommerce-product-gallery {
+    margin-bottom: 0.017924em;
+    margin-top: 0;
+}
+.single-product div.product .woocommerce-product-gallery .flex-control-thumbs li {
+    list-style: none;
+    margin-bottom: 0.18em;
+    cursor: pointer;
+}
+	.wc-proceed-to-checkout .button {
+    display: block;
+    text-align: center;
+    margin-bottom: 0em;
+		position:fixed;
+		bottom:0px;
+	  left:0px;
+		width:100%;
+}
+
+	.woocommerce-checkout
+	#colophon > div > div.storefront-handheld-footer-bar{
+	display:none;
+	}
+	.woocommerce-cart
+	#colophon > div > div.storefront-handheld-footer-bar{
+	display:none;
+	}
+		#colophon > div > div.storefront-handheld-footer-bar{
+	display:none;
+	}
+	#payment .place-order .button {
+    font-size: 1.41575em;
+    width: 100%;
+    white-space: pre-wrap;
+		position:fixed;
+		bottom:0px;
+		left:0px;
+}
+
+}
+
